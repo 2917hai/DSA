@@ -25,6 +25,7 @@ for(int m=0; m<s; m++ )
 };
 int main()
 {
+    
 int a[]={1,5,8,6,15,75,2};
 int s=sizeof(a)/sizeof(a[0]);
 top t;
