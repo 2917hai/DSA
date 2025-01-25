@@ -2,37 +2,45 @@
 using namespace std;
 class top
 {
+    int c=0;
+    bool f=true;
 public:void bubble(int arr[], int s)
 {
 for(int i=0; i<s; i++)
 {
-    for(int j=0; j<s-1; j++)
+    for(int j=0; j<s-i-1; j++)
     {
+        c++;
         if(arr[j]>arr[j+1])
         {
             int temp=arr[j];
             arr[j]=arr[j+1];
             arr[j+1]=temp;
+            f=false;
+            
         }
     }
-
+    if (f==true)
+    {
+        break;
+    }
+    
 }
+cout<<c<<endl;
 for(int m=0; m<s; m++ )
 {
     cout<<arr[m]<<" ";
 }
+
 }
 };
 int main()
 {
-int a[]={1,5,8,6,15,75,2};
+int a[]={1,2,3,4,8,5}; 
 int s=sizeof(a)/sizeof(a[0]);
 top t;
 t.bubble(a,s);
 }
 
 
-
-
-// this code are giving correct out put but all case will not be pass 
-// for solution next code in bubble1.cpp
+//  this code pass all case  
