@@ -5,6 +5,9 @@ Time complexity-
 best case and Average case= nlogn
 worst case= O(n^2)
 
+Space complexity= O(1)
+stable= No ( duplicate data value )
+
 */
 
 #include <iostream>
