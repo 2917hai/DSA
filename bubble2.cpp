@@ -4,7 +4,7 @@ class Uma
 {
 public: void bubble(int arr[], int s)
 {
-    bool f=true;
+    bool f=true ;
     for(int i=0; i<s; i++)
     {
         for(int j=0; j<s-i-1; j++)

@@ -58,10 +58,6 @@ int main()
 {
 int arr[]={9,2,1,5,6};
 int s=sizeof(arr)/sizeof(arr[0]);
-for(int i=0; i<s; i++)
-{
-    cout<<arr[i]<<"\t";
-}
 qksort(arr,0,s-1);
 for(int i=0; i<s; i++)
 {

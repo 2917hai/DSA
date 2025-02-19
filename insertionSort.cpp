@@ -7,7 +7,7 @@ public: void insertsort(int arr[], int s)
     for(int m=1; m<s; m++)
     {
         int chotu=m;
-        while (chotu>=0 && arr[chotu]<arr[chotu-1])
+        while (chotu>0 && arr[chotu]<arr[chotu-1])
         {
             int temp;
             temp=arr[chotu];

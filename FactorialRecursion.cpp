@@ -4,15 +4,15 @@ int fact(int n)
 {
   if(n==0)
   {
-    return 1;
+    return 1;                                      
   }
   int r=n*fact(n-1);
-  return r;
-  
+  return r; 
 }
 int main()
 {
-cout<<fact(5);
+cout<<fact(5);             
 }
 
 // fact(0)=1
+//   default value of Null is =0
