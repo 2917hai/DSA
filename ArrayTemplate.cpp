@@ -9,6 +9,12 @@ int main()
     // 1). duplicate case (find 2nd Highest no)
     // 2). Array is empty()
     // 3). Array constain only one ("there is only one element ")
+    if(arr.begin()==arr.end())
+    {
+        cout<<"there is only one element"<<endl;
+    }
+    array<int, 5>arr11{};
+
     for(auto a:arr)
     {
         cout<<a<<"\t";
