@@ -9,6 +9,10 @@ bool panagram(string &s)
         mp[s[i]]++;
         
     }
+    for(auto x:mp)
+    {
+        cout<<x.first<<" "<<x.second<<endl;
+    }
     for(char ch='a';ch<='z';ch++)
     {
         if(mp[ch]==0)
@@ -20,7 +24,7 @@ bool panagram(string &s)
 }
 int main()
     {
-        string s="The quick brown fox jumps over the lazy dog";
+        string s="quick brown fox jumps over the lazy dog";
         if(panagram(s))
         {
             cout<<"Yes"<<endl;
