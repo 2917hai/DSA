@@ -6,7 +6,8 @@ bool panagram(string s)
     unordered_map<char,int>pan;
     for(int i=0; i<s.length(); i++)
     {
-        pan[s[i]]++;
+       
+         pan[s[i]]++;
     }
     for(char ch='a'; ch<='z'; ch++)
     {

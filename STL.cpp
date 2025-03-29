@@ -69,13 +69,13 @@ namespace cybrome     // by default public hota hai
       }
     }coutnew;
 }
-// int main()
-// {
+int main()
+{
   
-//     cybrome::coutnew.show();
-//     cybrome::show();
-//     cybrome::bhopal::show();
-// }
+    cybrome::coutnew.show();
+    cybrome::show();
+    cybrome::bhopal::show();
+}
 
 
 
@@ -90,11 +90,11 @@ namespace cybrome     // by default public hota hai
 
 
 
-using namespace cybrome::bhopal;
-int main()
-{
+// using namespace cybrome::bhopal;
+// int main()
+// {
 
-   show();   /// bhopal
-   cybrome::show();   // cybrome
+//    show();   /// bhopal
+//    cybrome::show();   // cybrome
   
-}
+// }
